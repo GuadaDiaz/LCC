@@ -1,0 +1,40 @@
+Nueva Situación: Gestión de Metas Financieras Mensuales
+Desarrolla una página para gestionar metas financieras mensuales con las siguientes características:
+
+Formulario para Ingresos y Gastos Mensuales
+Campos del formulario:
+
+Ingresos Mensuales (input tipo numérico).
+Gastos Mensuales (input tipo numérico).
+Meta de Ahorro Mensual (input tipo numérico).
+Botón para calcular balance.
+Validaciones:
+
+Todos los campos deben ser completados con números positivos.
+Si el cálculo del balance (ingresos - gastos - meta) es negativo, mostrar el resultado en rojo.
+Si el cálculo del balance es positivo, mostrar el resultado en verde.
+Si se alcanza exactamente la meta, mostrar el texto en azul con el mensaje: "¡Meta alcanzada!".
+Dinámicas de Estilo con JavaScript
+Cambiar el color de fondo del formulario dependiendo de los valores ingresados:
+
+Si los ingresos superan los gastos, fondo verde claro.
+Si los gastos superan los ingresos, fondo rojo claro.
+Si los ingresos y gastos son iguales, fondo amarillo claro.
+Mostrar un mensaje dinámico en un <div> debajo del formulario con recomendaciones:
+
+Si el balance es negativo, mensaje: "Revisa tus gastos".
+Si el balance es positivo, mensaje: "¡Buen manejo financiero!".
+Si se alcanza la meta, mensaje: "¡Felicidades por alcanzar tu meta!".
+Botón Extra: "Simular Mes"
+Este botón simula el próximo mes:
+Incrementa los ingresos en un 10%.
+Incrementa los gastos en un 5%.
+Muestra el balance simulado y actualiza el fondo y los mensajes dinámicamente.
+Estilo en CSS
+Formulario:
+Fondo degradado suave de tonos azulados.
+Inputs con bordes redondeados y sombreado.
+Botones estilizados con efecto hover (cambio de color y escala).
+Resultados:
+Texto grande y centrado.
+Mensajes en cajas con borde, color de fondo y sombreado.

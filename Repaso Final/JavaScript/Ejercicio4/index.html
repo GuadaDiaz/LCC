@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Financiera</title>
+    <link rel='stylesheet' href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <h1>Gestión de Metas Financieras</h1>
+    <form id="miFormulario">
+        <fieldset>
+            <legend>Ingresos Mensuales</legend>
+            <label for="ingresos">Ingrese aquí:</label>
+            <input type="numer" id="ingresos" name="ingresos">
+        </fieldset>
+
+        <fieldset>
+            <legend>Gastos Mensuales</legend>
+            <label for="gastos">Ingrese aquí:</label>
+            <input type="numer" id="gastos" name="gastos">
+        </fieldset>
+
+        <fieldset>
+            <legend>Meta de Ahorro Mensual</legend>
+            <label for="meta">Ingrese aquí:</label>
+            <input type="numer" id="meta" name="meta">
+        </fieldset>
+
+        <!--Botón para calcular el balance-->
+        <input type="submit" value="Calcular" id="calcular">
+    </form>
+    <!--Resultado del cálculo-->
+    <div id="resultado" style="display: none;"></div>
+    <div id="recomendaciones" style="display: none;"></div>
+</body>
+</html>

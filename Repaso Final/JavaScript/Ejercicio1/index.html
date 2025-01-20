@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Registro de Usuario</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem distinctio cumque omnis ipsa quaerat, voluptates reprehenderit rem esse! Voluptatum alias eveniet incidunt autem neque ducimus labore distinctio illo earum!</p>
+    </header>
+    <form id="miFormulario">
+        <fieldset>
+            <legend>Ingreso de datos</legend>
+
+            <!--Nombre de usuario-->
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" id="usuario" name="usuario">
+            <br><br>
+
+            <!--Correo-->
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo">
+            <br><br>
+
+            <!--Contraseña-->
+            <label for="contrasena">Contraseña: </label>
+            <input type="password" id="contrasena" name="contrasena">
+            <br><br>
+
+            <!--Repetir contraseña-->
+            <label for="conf_contrasena">Contraseña: </label>
+            <input type="password" id="conf_contrasena" name="conf_contrasena">
+            <br><br>
+
+            <!--Comentario-->
+            <label for="Comentario">Comentario</label>
+            <br>
+            <textarea name="comentario" id="comentario"></textarea>
+            <br><br>
+
+            <!--Botón de envío-->
+            <input type="submit" value="Enviar" id="miBoton">
+            <input type="reset" value="Resetear">
+        </fieldset>
+    </form>
+    <fieldset>
+        <legend>Saludos y Obtener Información</legend>
+        <button id="saludar">Saludar</button>
+        <button id="getData">Get Data</button>
+    </fieldset>
+    <footer>
+        &copy; Derechos de Autor Reservados
+    </footer>
+</body>
+</html>

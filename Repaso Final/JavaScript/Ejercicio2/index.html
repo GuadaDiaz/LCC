@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <h1>Reserva</h1>
+    <form id="miFormulario">
+        <!--Nombre Completo-->
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <!--Fecha del evento-->
+        <label for="fechaEvento">Fecha del Evento:</label>
+        <input type="date" id="fechaEvento" name="fechaEvento">
+        <br><br>
+
+        <!--Número de asistentes-->
+        <label for="numAsistentes">Número de asistentes:</label>
+        <input type="text" id="numAsistentes" name="numAsistentes">
+        <br><br>
+
+        <!--Tipo de eventos-->
+        <label for="tipoEvento"></label>
+        <select id="tipoEvento" name="tipoEvento">
+            <option value="Boda">Boda</option>
+            <option value="Cumpleaños">Cumpleaños</option>
+            <option value="Corporativo">Corporativo</option>
+        </select>
+        <br><br>
+
+
+        <!--Calculo de prueba-->
+        
+
+        <!--Botón de confirmación-->
+        <input type="submit" id="confirmar" value="Confirmar">
+    </form>
+    <div id="confirmacion" style="display: none;"></div>
+</body>
+</html>

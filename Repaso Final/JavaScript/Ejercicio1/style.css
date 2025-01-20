@@ -1,0 +1,10 @@
+* {
+    margin: none;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #7061CC;
+    text-align: center;
+    color: white;
+}

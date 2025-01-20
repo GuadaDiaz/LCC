@@ -1,0 +1,28 @@
+* {
+    margin: 10;
+    box-sizing: border-box;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+}
+
+#miBoton {
+    margin: 15px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#miBoton:hover{
+    background-color: orange;
+    color: black;
+}
+
+div {
+    border: solid black 2px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 50px;
+}

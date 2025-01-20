@@ -1,0 +1,22 @@
+* {
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+} 
+
+input {
+    border-radius: 5px;
+    box-shadow: inset;
+    padding: 5px;
+}
+
+input[type='submit']:hover {
+    background-color: orange;
+    padding: 5px 10px;
+}
+
+div {
+    border: solid black 1px;
+    background-color: aqua;
+    padding: 5px;
+}

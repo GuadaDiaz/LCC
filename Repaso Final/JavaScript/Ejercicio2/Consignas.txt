@@ -1,0 +1,27 @@
+Nueva Situación: Formulario Interactivo y Funcionalidad Dinámica
+Crea un formulario para una Reserva de Eventos que incluya los siguientes campos:
+
+Nombre completo.
+Fecha del evento (input tipo "date").
+Número de asistentes.
+Selección de tipo de evento (bodas, cumpleaños, corporativo).
+Botón de confirmación.
+Implementa las siguientes validaciones con JavaScript:
+
+Nombre completo:
+Longitud mínima de 5 caracteres.
+Fecha del evento:
+No permite seleccionar una fecha anterior al día actual.
+Número de asistentes:
+Solo se permiten números entre 1 y 500.
+Tipo de evento:
+Selección obligatoria.
+Agrega CSS para:
+
+Destacar inputs inválidos con bordes en rojo y texto de error dinámico.
+Cambiar el fondo del formulario al seleccionar cada tipo de evento (por ejemplo: azul para bodas, verde para cumpleaños, gris para corporativo).
+Agrega dinamismo con las siguientes funcionalidades de JavaScript:
+
+Muestra una confirmación de la reserva (nombre del evento, fecha y asistentes) en un elemento <div> debajo del formulario al enviarlo correctamente.
+Cambia automáticamente el título de la página después de 3 segundos de haber sido cargada (por ejemplo, de "Reserva tu Evento" a "¡Planifica tu Celebración!").
+Al hacer clic en el botón "OBTENER SUGERENCIAS", realiza una consulta HTTP a https://jsonplaceholder.typicode.com/users y muestra en una lista los nombres y correos de los primeros 5 usuarios como "organizadores recomendados". Si el contenedor para la lista no existe, créalo dinámicamente.

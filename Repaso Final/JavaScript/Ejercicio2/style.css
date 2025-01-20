@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+body {
+    background-color: aqua;
+}
+
+form {
+    margin: 25px;
+    padding: 20px;
+    display: block;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 1px 2px;
+}
+
+#confirmar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;;
+}
+
+#confirmar:hover{
+    background-color: aqua;
+    color: black;
+}

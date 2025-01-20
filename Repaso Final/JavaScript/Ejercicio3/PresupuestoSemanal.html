@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto Semanal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <h1>Cálculo de Presupuesto Semanal</h1>
+    <form id="miFormulario">
+        <!--Ingresos-->
+        <fieldset>
+            <legend>Ingresos Semanales</legend>
+            <label for="ingresos">Ingrese aquí las ganancias: </label>
+            <input type="number" id="ingresos" name="ingresos">
+        </fieldset>
+
+        <!--Gastos-->
+
+        <fieldset>
+            <legend>Gastos Semanales</legend>
+            <label for="gastos">Ingrese aquí los gastos: </label>
+            <input type="number" id="gastos" name="gastos">
+        </fieldset>
+
+        <!--Botón para calcular el presupuesto-->
+        <input type="submit" id="miBoton" value="Calcular">
+    </form>
+    <div id="resultado" style="display: none;"></div>
+    <button id="consejos">Obtener Consejos de Ahorro</button>
+</body>
+</html>

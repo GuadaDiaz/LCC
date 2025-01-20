@@ -1,0 +1,21 @@
+Nueva Situación: Cálculo de Presupuesto Semanal
+Formulario de Presupuesto Semanal:
+
+Ingresos Semanales (input tipo "number").
+Gastos Semanales (input tipo "number").
+Botón para calcular el presupuesto restante.
+Validaciones con JavaScript:
+
+Ambos campos son obligatorios y deben ser números positivos.
+Si el resultado del cálculo (ingresos - gastos) es negativo, el resultado debe mostrarse en rojo; si es positivo o cero, debe mostrarse en verde.
+Estilización con CSS:
+
+Resalta los campos con errores en rojo si no cumplen las validaciones.
+Cambia el fondo del formulario según el resultado:
+Fondo rojo si el presupuesto es negativo.
+Fondo verde si el presupuesto es positivo o cero.
+Funcionalidad Dinámica con JavaScript:
+
+Muestra el presupuesto restante en un elemento <div> debajo del formulario después de calcular.
+Al cargar la página, el título cambia automáticamente después de 3 segundos de "Calcula tu Presupuesto" a "¡Gestiona tus Finanzas!".
+Un botón adicional "OBTENER CONSEJOS DE AHORRO" consulta https://jsonplaceholder.typicode.com/posts y muestra títulos de los primeros 5 posts como "Consejos de Ahorro".
